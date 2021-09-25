@@ -220,5 +220,33 @@
     padding: 12px;
   }
 
+  .resume .resume_right .resume_Projects .bold {
+  color: #669db3ff;
+  font-style: oblique;
+  font-weight:800;
+  text-decoration: underline;
+}
+
+.resume .resume_right .resume_Projects .button{
+  border: 1px solid #669db3ff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  background:#669db3ff;
+  color: white;
+}
+
+.button:active {
+  background:white;
+  color:#669db3ff;
+}
+
 
 
