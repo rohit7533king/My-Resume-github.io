@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+  .resume {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:rgb(235, 218, 238);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+
+  }
+
+  body {
+    background: #fcf6f5ff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  ul {
+    list-style: disc;
+    font-size: 25px;
+  }
+
+  ul li:before {
+      content: "";
+      font-size: 150%;
+     align-items: left;
+
+
+  }
+
+  .resume .resume_left {
+    position:relative;
+    background:rgb(197, 32, 3);
+    padding:40px;
+  }
+  
+  .resume .resume_left .resume_profile {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    left:2rem;
+  }
+  
+  .resume .resume_left .resume_profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.resume .resume_left .resume_about .bold {
+    color: white;
+    font-style: oblique;
+    font-weight:800;
+    text-decoration: underline;
+}
+
+.resume .resume_left .resume_about p {
+  text-align: center;
+  word-spacing: 5px;
+  font-size:x-large ;
+  color:white;
+}
+
+.resume .resume_left .resume_contact p {
+  text-align: center;
+  font-size:x-large ;
+  color:white;
+}
+
+.resume .resume_left .resume_contact .bold {
+    color: white;
+    font-style: oblique;
+    font-weight:800;
+    text-decoration: underline;
+
+}
+
+.resume .resume_left .resume_hobbies .bold {
+    color: white;
+    font-style: oblique;
+    font-weight:800;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.resume .resume_left .resume_hobbies li {
+  color: white;
+  font-style: sans-serif;
+  text-align: left;
+}
+
+.resume .resume_right {
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.resume .resume_right .heading .first {
+       color: #669db3ff;
+       font-size: 40px;
+       font-style: oblique;
+}
+
+.resume .resume_right .heading .second {
+    color: #669db3ff;
+    font-size: 30px;
+    font-style: oblique;
+    padding-bottom: 2rem;
+}
+
+
+
+.resume .resume_right .resume_education .bold{
+    color:#669db3ff;
+    font-style: oblique;
+    font-weight:800;
+    text-decoration: underline;
+    text-align: left;
+    font-size: x-large;
+
+
+}
+
+.resume .resume_right .resume_education {
+    color:#669db3ff;
+    font-style: sans-serif;
+    text-align: left;
+}
+
+.resume .resume_right .resume_skills .bold {
+    color: #669db3ff;
+    font-style: oblique;
+    font-weight:800;
+    text-decoration: underline;
+    font-size:x-large;
+
+}
+
+.resume .resume_skills li {
+  list-style-type: none;
+  margin: 20px 0;
+  color:#669db3ff;
+
+}
+
+.bar {
+  background: white;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #669db3ff;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #669db3ff;
+}
+
+.HTML {
+  width: 90%;
+
+}
+
+.CSS {
+  width: 75%;
+
+}
+
+.JavaScript {
+  width: 60%;
+
+}
+
+.Git {
+  width: 70%;
+
+}
+
+.Figma {
+  width: 75%;
+
+}
+
+  .resume .resume_right .resume_Personal .bold {
+      color:#669db3ff;
+      font-style: oblique;
+      font-weight:800;
+      text-decoration: underline;
+      font-size: x-large;
+
+  }
+
+  .resume .resume_right .resume_Personal  {
+    color:#669db3ff;
+    padding: 12px;
+  }
+
+
+
